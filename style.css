@@ -1,0 +1,127 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainContainer{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-flow: row wrap;
+}
+.leftContainer{
+    background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 15vh;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.4);
+}
+.logoimg{
+    max-height: 100%;
+    align-content: center;
+}
+.logoName{
+    padding: 18px;
+    font-size: 4rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: white;
+}
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 2;
+}
+.info{
+    max-width: 100%;
+    font-size: 2rem;
+    padding: 0px 30px;
+}
+.footer{
+    color: white;
+    padding-bottom: 5px;
+
+}
+.formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.FormHeading{
+    font-size:2rem;
+    font-weight: bold;
+    padding:20px 30px;
+}
+.form{
+    display: flex;
+    padding: 5px 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.form-left{
+    flex: 1;
+    margin-right: 10px;
+    padding: 12px;
+    max-width: 40%;
+}
+label,input{
+    margin: 5px;
+    padding: 8px 0px;
+}
+input{
+    width: 100%;
+    border: #E5E7EB solid 1px;
+}
+input:focus{
+    border: blue solid 3px;
+} 
+
+.form-right{
+    flex: 1;
+    padding: 12px;
+    max-width: 40%;
+}
+
+.submitBtn{
+    background-color:#596D48;
+	border-radius:10px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:1rem;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    max-width: fit-content;
+    margin: 18px 30px;
+}
+.newAccount{
+    padding: 30px;
+    font-size: 1.2rem;
+}
+div>a{
+    color: black;
+}
+div>a:hover{
+    font-size: 1.5rem;
+}

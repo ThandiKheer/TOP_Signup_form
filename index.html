@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="leftContainer">
+            <div class="logo">
+                <img class="logoimg" src="img/odin-lined.png" alt="">
+                <h1 class="logoName">ODIN</h1>
+            </div>
+            <footer class="footer">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </footer>
+        </div>
+        <div class="rightContainer">
+            <div class="info">This is not a real online service! You know you need something <br>
+                like this in your life to help you realize your deepest dreams. <br>
+                Sign up now to get started. <br>
+            </div>
+            <div>
+                <form action="#">
+                    <div class="formContainer">
+                        <div class="FormHeading">Let's do this!</div>
+                        <div class="form">
+                            <div class="form-left">
+                                <label for="firstname">FIRST NAME</label><br>
+                                <input type="text" name="First_Name" id="firstname"><br>
+                                <label for="email">EMAIL</label><br>
+                                <input type="email" name="e-mail" id="email"><br>
+                                <label for="password">PASSWORD</label><br>
+                                <input type="password" name="Password" id="password"><br>
+                            </div>
+                            <div class="form-right">
+                                <label for="lastname">LAST NAME</label><br>
+                                <input type="text" name="Last_Name" id="lastname"><br>
+                                <label for="phonenumber">PHONE NUMBER</label><br>
+                                <input type="text" name="Phone_Number" id="phonenumber" pattern="[0-9]{10}"><br>
+                                <label for="confirmPassword">CONFIRM PASSWORD</label><br>
+                                <input type="password" name="Confirm_Password" id="confirmPassword"><br>
+                            </div>
+                        </div>
+                        <button type="submit" class="submitBtn">Create Account</button>
+                        <div class="newAccount">Already have an account? <a href="#">log in</a></div>
+                    </div>
+                </form>    
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
